@@ -1,0 +1,23 @@
+<!--pages/me/me.wxml-->
+<view class="list">
+  <view class="disc">
+    <view class="word">RookieRookieRookieRookieRoeRookieRookieRookieRookokie</view>
+    <image class="img" src="1.png" mode="widthFix"></image>    
+  </view>
+  <view class="line"></view>
+  <view class="disc">
+    <view class="word">Rookie棒棒的Rookie棒棒的Rookie棒棒的Rookie棒棒的Rookie棒棒的Rookie棒棒的Rookie棒棒的Rookie棒棒的</view>
+    <image class="img" src="1.png" mode="widthFix"></image>    
+  </view>
+  <view class="line"></view>
+  <view class="disc">
+    <view class="word">Rookie棒棒的Rookie棒棒的Rookie棒棒的Rookie棒棒的Rookie棒棒的Rookie棒棒的Rookie棒棒的Rookie棒棒的</view>
+    <image class="img" src="1.png" mode="widthFix"></image>    
+  </view>
+  <view class="line"></view>
+  <view class="disc">
+    <view class="word">Rookie棒棒的Rookie棒棒的Rookie棒棒的Rookie棒棒的Rookie棒棒的Rookie棒棒的Rookie棒棒的Rookie棒棒的</view>
+    <image class="img" src="1.png" mode="widthFix"></image>    
+  </view>
+  <view class="line"></view>
+</view>
