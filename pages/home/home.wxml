@@ -1,0 +1,63 @@
+<view class='list'>
+	<view bindtap='disctap' class='disc'>
+		<view class='word'>
+			<view class='tit'>
+				排位状态不错 iG.Rookie 冲向韩服第七
+			</view>
+
+			<view class='nameTimes'>
+				<view class='name'>tstxxy</view>
+				<view class='times'>4.7万次阅读</view>
+			</view>
+		</view>
+		<image class='img' src='2.jpeg' mode='widthFix'></image>
+	</view>
+
+	<view class='line'></view>
+	<view bindtap='disctap' class='disc'>
+		<view class='word'>
+			<view class='tit'>
+				排位状态不错 iG.Rookie 冲向韩服第七
+			</view>
+
+			<view class='nameTimes'>
+				<view class='name'>tstxxy</view>
+				<view class='times'>4.7万次阅读</view>
+			</view>
+		</view>
+		<image class='img' src='2.jpeg' mode='top'></image>
+	</view>
+
+	<view class='line'></view>
+	<view bindtap='disctap' class='disc'>
+		<view class='word'>
+			<view class='tit'>
+				排位状态不错 iG.Rookie 冲向韩服第七
+			</view>
+
+			<view class='nameTimes'>
+				<view class='name'>tstxxy</view>
+				<view class='times'>4.7万次阅读</view>
+			</view>
+		</view>
+		<image class='img' src='2.jpeg' mode='top'></image>
+	</view>
+
+	<view class='line'></view>
+	<view bindtap='disctap' class='disc'>
+		<view class='word'>
+			<view class='tit'>
+				排位状态不错 iG.Rookie 冲向韩服第七
+			</view>
+
+			<view class='nameTimes'>
+				<view class='name'>tstxxy</view>
+				<view class='times'>4.7万次阅读</view>
+			</view>
+		</view>
+		<image class='img' src='2.jpeg' mode='top'></image>
+	</view>
+
+	<view class='line'></view>
+
+</view>

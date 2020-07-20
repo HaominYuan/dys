@@ -1,0 +1,56 @@
+<!--pages/disc/disc.wxml-->
+<view class="list">
+	<view class='first'>
+		<view class="time">一小时前</view>
+		<view class="group">德云色的粉丝圈</view>
+	</view>
+	<view class='author'>
+		<view class='avatar'>头像</view>
+		<view class='name'>笑笑</view>
+		<view class='position'>楼主</view>
+		<view class='level'>LV.11</view>
+	</view>
+	<view class='title'>V5全队巧合排在一起输给路人小iG今天冲啊</view>
+	<image class='img' src="3.jpeg" mode="widthFix"></image>
+	<view class='article'>DYS脑子有问题吗</view>
+	<view class='likeCommentShare'>
+		<view class='like'>点赞</view>
+		<view class='comment'>评论</view>
+		<view class='share'>分享</view>
+	</view>
+
+	<view class="bigline"></view>
+
+	<view class='replys'>
+		<view class='reply'>
+			<image src='4.jpg' class='left' mode='widthFix'>
+			</image>
+			<view class='right'>
+				我在哪里
+				<view class='nameLevel'></view>
+			</view>
+		</view>
+		<view class='line'></view>
+
+		<view class='reply'>
+			<image src='4.jpg' class='left' mode='widthFix'>
+			</image>
+			<view class='right'>
+				我在哪里
+				<view class='nameLevel'></view>
+			</view>
+		</view>
+		<view class='line'></view>
+
+		<view class='reply'>
+			<image src='4.jpg' class='left' mode='widthFix'>
+			</image>
+			<view class='right'>
+				我在哪里
+				<view class='nameLevel'></view>
+			</view>
+		</view>
+		<view class='line'></view>
+	</view>
+
+</view>

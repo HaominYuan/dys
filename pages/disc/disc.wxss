@@ -1,0 +1,81 @@
+/* pages/disc/disc.wxss */
+
+.list {
+    display: flex;
+    flex-flow: column;
+    background-color: yellow;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    height: 50rpx;
+    width: 700rpx;
+    background-color: blue;
+}
+
+.author {
+    display: flex;
+    background-color: red;
+    width: 700rpx;
+}
+
+.title {
+    background-color: green;
+    width: 700rpx;
+}
+
+.img {
+    background-color: burlywood;
+}
+
+.article {
+    background-color: cadetblue;
+    width: 700rpx;
+}
+
+.likeCommentShare {
+    background-color: chartreuse;
+    justify-content: space-between;
+    display: flex;
+    width: 700rpx;
+}
+
+.replys {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-flow: column;
+    width: 700rpx;
+    align-items: center;
+    overflow: hidden;
+}
+
+.reply {
+    display: flex;
+    background-color: darkcyan;
+    width: 700rpx;
+    height: 150rpx;
+}
+
+.line {
+    width: 750rpx;
+    height: 5rpx;
+    background-color: black;
+}
+
+.bigline {
+    background-color: darkgrey;
+    height: 15rpx;
+    width: 750rpx;
+}
+
+.left {
+    background-color: darkslateblue;
+    flex: 1;
+}
+
+.right {
+    background-color: red;
+    flex: 4;
+}
