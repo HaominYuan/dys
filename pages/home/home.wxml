@@ -1,70 +1,18 @@
 <view class='list'>
-	<view bindtap='disctap' class='disc'>
+	<view bindtap='textTap' class='text' wx:for="{{text}}" wx:key="id">
 		<view class='left'>
 			<view class='title'>
-				排位状态不错 iG.Rookie 冲向韩服第七
+				{{item.title}}
 			</view>
 
-			<view class='nameTimes'>
-				<view class='name'>tstxxy</view>
-				<view class='times'>4.7万次阅读</view>
+			<view class='bottom'>
+				<view class='name'>{{item.author}}</view>
+				<view class='times'>{{item.times}}</view>
 			</view>
 		</view>
 		<view class='right'>
 			<image class='img' src='2.jpeg' mode='widthFix'/>
 		</view>
-	</view>
+	</view>	
 	<view class='line'></view>
-
-	<view bindtap='disctap' class='disc'>
-		<view class='left'>
-			<view class='title'>
-				排位状态不错 iG.Rookie 冲向韩服第七
-			</view>
-
-			<view class='nameTimes'>
-				<view class='name'>tstxxy</view>
-				<view class='times'>4.7万次阅读</view>
-			</view>
-		</view>
-		<view class='right'>
-			<image class='img' src='2.jpeg' mode='widthFix'/>
-		</view>
-	</view>
-	<view class='line'></view>
-
-	<view bindtap='disctap' class='disc'>
-		<view class='left'>
-			<view class='title'>
-				排位状态不错 iG.Rookie 冲向韩服第七
-			</view>
-
-			<view class='nameTimes'>
-				<view class='name'>tstxxy</view>
-				<view class='times'>4.7万次阅读</view>
-			</view>
-		</view>
-		<view class='right'>
-			<image class='img' src='2.jpeg' mode='widthFix'/>
-		</view>
-	</view>
-	<view class='line'></view>
-
-	<view bindtap='disctap' class='disc'>
-		<view class='left'>
-			<view class='title'>
-				排位状态不错 iG.Rookie 冲向韩服第七
-			</view>
-
-			<view class='nameTimes'>
-				<view class='name'>tstxxy</view>
-				<view class='times'>4.7万次阅读</view>
-			</view>
-		</view>
-		<view class='right'>
-			<image class='img' src='2.jpeg' mode='widthFix'/>
-		</view>
-	</view>
-	<view class='line'></view>
-
 </view>

@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-.disc {
+.text {
   display: flex;
   background-color: green;
   width: 700rpx;
@@ -18,7 +18,7 @@
   margin: 5rpx 0rpx 5rpx 0rpx;
 }
 
-.disc .left {
+.text .left {
   display: flex;
   flex-flow: column;
   flex: 5;
@@ -28,7 +28,7 @@
   box-sizing: border-box;
 }
 
-.disc .right {
+.text .right {
   flex: 2;
   display: flex;
   justify-content: center;
@@ -53,7 +53,7 @@
   flex: 4;
 }
 
-.nameTimes {
+.text .bottom {
   display: flex;
   flex: 1;
   color: white;
