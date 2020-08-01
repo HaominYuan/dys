@@ -24,7 +24,7 @@ Page({
   onLoad: function (options) {
     const that = this
     wx.request({
-      url: 'http://localhost:3000/',
+      url: 'http://42.194.215.137:3000/',
       data: {
 
       },
