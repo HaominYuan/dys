@@ -1,7 +1,7 @@
 <view class='list'>
 	<view bindtap='disctap' class='disc'>
-		<view class='word'>
-			<view class='tit'>
+		<view class='left'>
+			<view class='title'>
 				排位状态不错 iG.Rookie 冲向韩服第七
 			</view>
 
@@ -10,13 +10,15 @@
 				<view class='times'>4.7万次阅读</view>
 			</view>
 		</view>
-		<image class='img' src='2.jpeg' mode='widthFix'></image>
+		<view class='right'>
+			<image class='img' src='2.jpeg' mode='widthFix'/>
+		</view>
 	</view>
-
 	<view class='line'></view>
+
 	<view bindtap='disctap' class='disc'>
-		<view class='word'>
-			<view class='tit'>
+		<view class='left'>
+			<view class='title'>
 				排位状态不错 iG.Rookie 冲向韩服第七
 			</view>
 
@@ -25,13 +27,15 @@
 				<view class='times'>4.7万次阅读</view>
 			</view>
 		</view>
-		<image class='img' src='2.jpeg' mode='top'></image>
+		<view class='right'>
+			<image class='img' src='2.jpeg' mode='widthFix'/>
+		</view>
 	</view>
-
 	<view class='line'></view>
+
 	<view bindtap='disctap' class='disc'>
-		<view class='word'>
-			<view class='tit'>
+		<view class='left'>
+			<view class='title'>
 				排位状态不错 iG.Rookie 冲向韩服第七
 			</view>
 
@@ -40,13 +44,15 @@
 				<view class='times'>4.7万次阅读</view>
 			</view>
 		</view>
-		<image class='img' src='2.jpeg' mode='top'></image>
+		<view class='right'>
+			<image class='img' src='2.jpeg' mode='widthFix'/>
+		</view>
 	</view>
-
 	<view class='line'></view>
+
 	<view bindtap='disctap' class='disc'>
-		<view class='word'>
-			<view class='tit'>
+		<view class='left'>
+			<view class='title'>
 				排位状态不错 iG.Rookie 冲向韩服第七
 			</view>
 
@@ -55,9 +61,10 @@
 				<view class='times'>4.7万次阅读</view>
 			</view>
 		</view>
-		<image class='img' src='2.jpeg' mode='top'></image>
+		<view class='right'>
+			<image class='img' src='2.jpeg' mode='widthFix'/>
+		</view>
 	</view>
-
 	<view class='line'></view>
 
 </view>

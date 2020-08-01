@@ -26,7 +26,7 @@
     width: 700rpx;
 }
 
-.img {
+.list image {
     background-color: burlywood;
 }
 
@@ -35,7 +35,7 @@
     width: 700rpx;
 }
 
-.likeCommentShare {
+.rating {
     background-color: chartreuse;
     justify-content: space-between;
     display: flex;
@@ -58,13 +58,13 @@
     height: 150rpx;
 }
 
-.line {
+.replys .line {
     width: 750rpx;
     height: 5rpx;
     background-color: black;
 }
 
-.bigline {
+.line {
     background-color: darkgrey;
     height: 15rpx;
     width: 750rpx;
@@ -72,10 +72,20 @@
 
 .left {
     background-color: darkslateblue;
+    opacity: 1;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reply .left image {
+    width: 100%;
+    border-radius: 50%;
 }
 
 .right {
     background-color: red;
     flex: 4;
 }
+
