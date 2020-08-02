@@ -1,18 +1,19 @@
 <view class='list'>
-	<view bindtap='textTap' class='text' wx:for="{{text}}" wx:key="id">
-		<view class='left'>
-			<view class='title'>
-				{{item.title}}
+	<view wx:for="{{text}}" wx:key="id">
+		<view bindtap='textTap' class='text'>
+			<view class='left'>
+				<view class='title'>
+					{{item.title}}
+				</view>
+				<view class='bottom'>
+					<view class='name'>{{item.author}}</view>
+					<view class='times'>{{item.times}}</view>
+				</view>
 			</view>
-
-			<view class='bottom'>
-				<view class='name'>{{item.author}}</view>
-				<view class='times'>{{item.times}}</view>
+			<view class='right'>
+				<image class='img' src='2.jpeg' mode='widthFix' />
 			</view>
 		</view>
-		<view class='right'>
-			<image class='img' src='2.jpeg' mode='widthFix'/>
-		</view>
-	</view>	
-	<view class='line'></view>
+		<view class='line'></view>
+	</view>
 </view>
