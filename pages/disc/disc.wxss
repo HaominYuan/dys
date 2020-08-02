@@ -1,77 +1,99 @@
-/* pages/disc/disc.wxss */
-
 .list {
     display: flex;
     flex-flow: column;
-    background-color: yellow;
     align-items: center;
+}
+
+.title {
+    width: 700rpx;
+    font-size: 35rpx;
+    font-weight: 700;
+    margin: 10rpx 0rpx 10rpx 0rpx;
 }
 
 .first {
     display: flex;
     justify-content: space-between;
-    height: 50rpx;
+    height: 40rpx;
     width: 700rpx;
-    background-color: blue;
+    font-size: 20rpx;
+    font-weight: 600;
+    color: rgb(168, 171, 180);
+    margin: 10rpx 0rpx 20rpx 0 rpx;
+}
+
+.line {
+    background-color: rgb(240, 241, 243);
+    height: 2rpx;
+    width: 700rpx;
 }
 
 .author {
     display: flex;
-    background-color: red;
     width: 700rpx;
+    height: 50rpx;
+    margin: 20rpx 0rpx 20rpx 0rpx;
 }
 
-.title {
-    background-color: green;
-    width: 700rpx;
+.author .avatar {
+    margin-right: 20rpx;
+    width: 50rpx;
 }
 
-.list image {
-    background-color: burlywood;
+.author .avatar image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.author .name {
+    align-self: center;
+    font-size: 25rpx;
+    font-weight: 600;
 }
 
 .article {
-    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
     width: 700rpx;
 }
 
+.article image {
+    align-self: center;
+}
+
 .rating {
-    background-color: chartreuse;
+    margin: 40rpx 0rpx 20rpx 0rpx;
     justify-content: space-between;
     display: flex;
     width: 700rpx;
 }
 
-.replys {
-    background-color: cornflowerblue;
-    display: flex;
-    flex-flow: column;
-    width: 700rpx;
-    align-items: center;
-    overflow: hidden;
+.thickLine {
+    width: 750rpx;
+    height: 20rpx;
+    background-color: rgb(247, 248, 250);
 }
 
-.reply {
+.replys {
     display: flex;
-    background-color: darkcyan;
+    flex-flow: column;
+    align-items: center;
     width: 700rpx;
-    height: 150rpx;
 }
 
 .replys .line {
     width: 750rpx;
     height: 5rpx;
-    background-color: black;
 }
 
-.line {
-    background-color: darkgrey;
-    height: 15rpx;
-    width: 750rpx;
+.reply {
+    display: flex;
+    width: 700rpx;
+    height: 150rpx;
 }
 
-.left {
-    background-color: darkslateblue;
+.reply .left {
     opacity: 1;
     flex: 1;
     display: flex;
@@ -84,8 +106,6 @@
     border-radius: 50%;
 }
 
-.right {
-    background-color: red;
+.reply .right {
     flex: 4;
 }
-
