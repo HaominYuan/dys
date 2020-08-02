@@ -30,39 +30,31 @@
 	<view class='thickLine'></view>
 
 	<view class='replys'>
-		<view class='reply'>
-			<view class="left">
-				<image src='4.jpg' mode='widthFix' />
+		<view class='wrap'>
+			<view class='reply'>
+				<view class="left">
+					<image src='4.jpg' mode='widthFix' />
+				</view>
+				<view class='right'>
+					我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里sadfasfasfasfsafsafdasdfasdfasdfasdfasdf
+					<view class='nameLevel'></view>
+				</view>
 			</view>
-			<view class='right'>
-				我在哪里
-				<view class='nameLevel'></view>
-			</view>
+			<view class='line'></view>
 		</view>
-		<view class='line'></view>
 
-		<view class='reply'>
-			<view class="left">
-				<image src='4.jpg' mode='widthFix' />
+		<view>
+			<view class='reply'>
+				<view class="left">
+					<image src='4.jpg' mode='widthFix' />
+				</view>
+				<view class='right'>
+					我在哪里
+					<view class='nameLevel'></view>
+				</view>
 			</view>
-			<view class='right'>
-				我在哪里
-				<view class='nameLevel'></view>
-			</view>
+			<view class='line'></view>
 		</view>
-		<view class='line'></view>
-
-		<view class='reply'>
-			<view class="left">
-				<image src='4.jpg' mode='widthFix' />
-			</view>
-			<view class='right'>
-				我在哪里
-				<view class='nameLevel'></view>
-			</view>
-		</view>
-		<view class='line'></view>
-
 	</view>
 
 </view>

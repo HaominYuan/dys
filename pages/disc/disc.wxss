@@ -79,26 +79,35 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    width: 700rpx;
+    background-color: rgb(254, 251, 244);
 }
 
-.replys .line {
+.replys .wrap {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.replys .wrap .line {
+    background-color: rgb(240, 241, 243);
+    height: 2rpx;
     width: 750rpx;
-    height: 5rpx;
 }
 
 .reply {
     display: flex;
     width: 700rpx;
-    height: 150rpx;
+    height: 300rpx;
+    background-color: rgb(254, 251, 244);
+    align-items: flex-start;
 }
 
 .reply .left {
-    opacity: 1;
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20rpx 20rpx 0rpx 0rpx;
 }
 
 .reply .left image {
@@ -108,4 +117,5 @@
 
 .reply .right {
     flex: 4;
+    word-break: break-all;
 }
