@@ -11,7 +11,7 @@
 
 	<view class='author'>
 		<view class='avatar'>
-			<image src="4.jpg" mode='heightFix' />
+			<image src="1.jpg" mode='heightFix' />
 		</view>
 		<view class='name'>笑笑</view>
 	</view>
@@ -33,7 +33,7 @@
 		<view class='wrap'>
 			<view class='reply'>
 				<view class="left">
-					<image src='4.jpg' mode='widthFix' />
+					<image src='1.jpg' mode='widthFix' />
 				</view>
 				<view class='right'>
 					我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里sadfasfasfasfsafsafdasdfasdfasdfasdfasdf
@@ -46,7 +46,7 @@
 		<view>
 			<view class='reply'>
 				<view class="left">
-					<image src='4.jpg' mode='widthFix' />
+					<image src='1.jpg' mode='widthFix' />
 				</view>
 				<view class='right'>
 					我在哪里

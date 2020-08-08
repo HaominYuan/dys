@@ -24,17 +24,19 @@ Page({
   onLoad: function (options) {
     const that = this
     wx.request({
-      url: 'http://42.194.215.137:3000/',
+      url: 'https://tstxxy.icu:3001/',
       data: {
 
       },
       header: {
-        'content-type': 'application/json'
       },
       success(res) {
         that.setData({
           text: res.data
         })
+      },
+      fail(error) {
+        console.log(error)
       }
     })
   }
