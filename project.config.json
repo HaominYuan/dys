@@ -67,15 +67,15 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "pages/disc/disc",
-					"pathName": "pages/disc/disc",
+					"name": "pages/home/home",
+					"pathName": "pages/home/home",
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
-					"name": "pages/home/home",
-					"pathName": "pages/home/home",
+					"name": "pages/text/text",
+					"pathName": "pages/text/text",
 					"scene": null
 				}
 			]

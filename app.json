@@ -1,7 +1,7 @@
 {
     "pages": [
       "pages/home/home",
-      "pages/disc/disc",
+      "pages/text/text",
       "pages/index/index"
     ],
     "window": {
