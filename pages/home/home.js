@@ -17,7 +17,7 @@ Page({
 
     data = JSON.stringify(data)
     wx.navigateTo({
-      url: `../disc/disc?data=${data}`
+      url: `../text/text?data=${data}`
     })
   },
 

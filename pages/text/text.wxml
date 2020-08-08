@@ -1,6 +1,6 @@
 <view class="list">
 	<view class="title">
-		有没有老船长，赐教一下
+		滔博锁定常规赛第一 解说：马老师很惊喜 恭喜猫皇
 	</view>
 
 	<view class='first'>
@@ -17,7 +17,9 @@
 	</view>
 
 	<view class='article'>
-		DYS脑子有问题吗
+		<view class='word'>
+			刚刚结束的比赛中，滔博以2-1拿下WE，成功锁定常规赛第一，赛后众解说纷纷送上祝贺，值得一提的是，今天马老师的发条表现还不错，猫皇解说滔博的比赛也赢了，期待两队在季后赛的表现。
+		</view>
 		<image src="r.jpg" mode="widthFix" />
 	</view>
 

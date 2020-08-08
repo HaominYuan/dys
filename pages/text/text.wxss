@@ -6,8 +6,8 @@
 
 .title {
     width: 700rpx;
-    font-size: 35rpx;
-    font-weight: 700;
+    font-size: 36rpx;
+    font-weight: 600;
     margin: 10rpx 0rpx 10rpx 0rpx;
 }
 
@@ -16,10 +16,10 @@
     justify-content: space-between;
     height: 40rpx;
     width: 700rpx;
-    font-size: 20rpx;
+    font-size: 24rpx;
     font-weight: 600;
     color: rgb(168, 171, 180);
-    margin: 10rpx 0rpx 20rpx 0 rpx;
+    margin: 5rpx 0rpx 15rpx 0rpx;
 }
 
 .line {
@@ -58,8 +58,15 @@
     width: 700rpx;
 }
 
+.article .word {
+    font-size: 32rpx;
+    line-height: 56rpx;
+}
+
 .article image {
+    width: 100%;
     align-self: center;
+    margin: 15rpx 0rpx 15rpx 0rpx;
 }
 
 .rating {
