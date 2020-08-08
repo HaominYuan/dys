@@ -11,7 +11,7 @@
 				</view>
 			</view>
 			<view class='right'>
-				<image class='img' src='2.jpeg' mode='widthFix' />
+				<image class='img' src='2.jpeg' mode='center'/>
 			</view>
 		</view>
 		<view class='line'></view>
