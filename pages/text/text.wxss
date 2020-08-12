@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'iconFont';
+    src: url('https://tstxxy.icu:3001/iconfont.woff');
+}
+
 .list {
     display: flex;
     flex-flow: column;
@@ -73,7 +78,30 @@
     margin: 40rpx 0rpx 20rpx 0rpx;
     justify-content: space-between;
     display: flex;
-    width: 700rpx;
+    width: 650rpx;
+    font-family: 'iconFont';
+    font-size: large;
+}
+
+.rating .share::before {
+    content: '\e70f';
+    color: #505050;
+    margin-right: 10rpx;
+    font-size: x-large;
+}
+
+.rating .comment::before {
+    content: '\e639';
+    color: #505050;
+    margin-right: 10rpx;
+    font-size: x-large;
+}
+
+.rating .like::before {
+    content: '\e6e0';
+    color: #00a1d6;
+    margin-right: 10rpx;
+    font-size: x-large;
 }
 
 .thickLine {

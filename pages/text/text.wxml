@@ -24,9 +24,9 @@
 	</view>
 
 	<view class='rating'>
-		<view class='like'>点赞</view>
-		<view class='comment'>评论</view>
-		<view class='share'>分享</view>
+		<view class='like'>15</view>
+		<view class='comment'>10</view>
+		<view class='share'>10</view>
 	</view>
 
 	<view class='thickLine'></view>

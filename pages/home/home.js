@@ -24,7 +24,7 @@ Page({
   onLoad: function (options) {
     const that = this
     wx.request({
-      url: 'https://tstxxy.icu:3001/',
+      url: 'https://tstxxy.icu:3001/text',
       data: {
 
       },
