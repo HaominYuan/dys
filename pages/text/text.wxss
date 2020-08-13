@@ -33,7 +33,7 @@
     width: 700rpx;
 }
 
-.author {
+.list .author {
     display: flex;
     width: 700rpx;
     height: 50rpx;
@@ -80,28 +80,28 @@
     display: flex;
     width: 650rpx;
     font-family: 'iconFont';
-    font-size: large;
+    font-size: medium;
 }
 
 .rating .share::before {
     content: '\e70f';
     color: #505050;
     margin-right: 10rpx;
-    font-size: x-large;
+    font-size: large;
 }
 
 .rating .comment::before {
     content: '\e639';
     color: #505050;
     margin-right: 10rpx;
-    font-size: x-large;
+    font-size: large;
 }
 
 .rating .like::before {
     content: '\e6e0';
     color: #00a1d6;
     margin-right: 10rpx;
-    font-size: x-large;
+    font-size: large;
 }
 
 .thickLine {
@@ -110,47 +110,82 @@
     background-color: rgb(247, 248, 250);
 }
 
-.replys {
+.comments .bar {
+    width: 700rpx;
+    height: 70rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32rpx;
+}
+
+.bar .left {
+    font-weight: bold;
+}
+
+.bar .right {
+    color: grey;
+}
+
+.comments {
     display: flex;
     flex-flow: column;
     align-items: center;
-    background-color: rgb(254, 251, 244);
 }
 
-.replys .wrap {
+.comments .wrap {
     display: flex;
     flex-flow: column;
     align-items: center;
 }
 
-.replys .wrap .line {
+.comments .line {
     background-color: rgb(240, 241, 243);
     height: 2rpx;
     width: 750rpx;
+    background-color: tomato;
 }
 
-.reply {
+.comments .comment {
     display: flex;
     width: 700rpx;
     height: 300rpx;
-    background-color: rgb(254, 251, 244);
     align-items: flex-start;
+    margin: 20rpx 0rpx 20rpx 0;
 }
 
-.reply .left {
+.comments .comment .left {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20rpx 20rpx 0rpx 0rpx;
+    margin-right: 20rpx;
 }
 
-.reply .left image {
+.comments .comment .left image {
     width: 100%;
     border-radius: 50%;
 }
 
-.reply .right {
-    flex: 4;
+.comments .comment .right {
+    flex: 5;
     word-break: break-all;
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    background-color: hotpink;
+}
+
+.right .reviewer {
+    background-color: blue;
+}
+
+.right .content {
+    background-color: green;
+}
+
+.right .info {
+    display: flex;
+    background-color: grey;
 }

@@ -31,28 +31,46 @@
 
 	<view class='thickLine'></view>
 
-	<view class='replys'>
+
+
+	<view class='comments'>
+		<view class='bar'>
+			<view class='left'>全部回复</view>
+			<view class='right'>正序</view>
+		</view>	
+		<view class='line'></view>
+
 		<view class='wrap'>
-			<view class='reply'>
+			<view class='comment'>
 				<view class="left">
 					<image src='1.jpg' mode='widthFix' />
 				</view>
 				<view class='right'>
-					我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里我在哪里sadfasfasfasfsafsafdasdfasdfasdfasdfasdf
-					<view class='nameLevel'></view>
+					<view class='reviewer'>作者</view>
+					<view class='content'>在哪里呢</view>
+					<view class='info'>
+						<view>地板 五小时前1</view>  
+						
+						<view>分享 评论 点赞</view>
+					</view>
 				</view>
 			</view>
 			<view class='line'></view>
 		</view>
 
-		<view>
-			<view class='reply'>
+				<view class='wrap'>
+			<view class='comment'>
 				<view class="left">
 					<image src='1.jpg' mode='widthFix' />
 				</view>
 				<view class='right'>
-					我在哪里
-					<view class='nameLevel'></view>
+					<view class='reviewer'>作者</view>
+					<view class='content'>在哪里呢</view>
+					<view class='info'>
+						<view>地板 五小时前1</view>  
+						
+						<view>分享 评论 点赞</view>
+					</view>
 				</view>
 			</view>
 			<view class='line'></view>
