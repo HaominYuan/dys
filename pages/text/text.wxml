@@ -29,16 +29,16 @@
 		<view class='share'>10</view>
 	</view>
 
-	<view class='thickLine'></view>
-
-
+	<view class='line'></view>
 
 	<view class='comments'>
-		<view class='bar'>
-			<view class='left'>全部回复</view>
-			<view class='right'>正序</view>
-		</view>	
-		<view class='line'></view>
+		<view class='wrap'>
+			<view class='bar'>
+				<view class='left'>全部回复</view>
+				<view class='right'>正序</view>
+			</view>
+			<view class='line'></view>
+		</view>
 
 		<view class='wrap'>
 			<view class='comment'>
@@ -46,30 +46,36 @@
 					<image src='1.jpg' mode='widthFix' />
 				</view>
 				<view class='right'>
-					<view class='reviewer'>作者</view>
-					<view class='content'>在哪里呢</view>
+					<view class='reviewer'>WE、Blaze</view>
+					<view class='content'>
+						感谢教练。。。下赛季应该还是这个教练，就算换也是换个水平差不多的，毕竟we就没再教练方面花过大钱
+					</view>
 					<view class='info'>
-						<view>地板 五小时前1</view>  
-						
-						<view>分享 评论 点赞</view>
+						<view class='left'>
+							5楼17分钟前
+						</view>
+						<view class='right'>分享 评论 点赞</view>
 					</view>
 				</view>
 			</view>
 			<view class='line'></view>
 		</view>
 
-				<view class='wrap'>
+		<view class='wrap'>
 			<view class='comment'>
 				<view class="left">
 					<image src='1.jpg' mode='widthFix' />
 				</view>
 				<view class='right'>
-					<view class='reviewer'>作者</view>
-					<view class='content'>在哪里呢</view>
+					<view class='reviewer'>WE、Blaze</view>
+					<view class='content'>
+						感谢教练。。。下赛季应该还是这个教练，就算换也是换个水平差不多的，毕竟we就没再教练方面花过大钱
+					</view>
 					<view class='info'>
-						<view>地板 五小时前1</view>  
-						
-						<view>分享 评论 点赞</view>
+						<view class='left'>
+							5楼17分钟前
+						</view>
+						<view class='right'>分享 评论 点赞</view>
 					</view>
 				</view>
 			</view>

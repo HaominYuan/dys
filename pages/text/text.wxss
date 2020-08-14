@@ -104,7 +104,7 @@
     font-size: large;
 }
 
-.thickLine {
+.list > .line {
     width: 750rpx;
     height: 20rpx;
     background-color: rgb(247, 248, 250);
@@ -112,11 +112,11 @@
 
 .comments .bar {
     width: 700rpx;
-    height: 70rpx;
+    height: 66rpx;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 32rpx;
+    font-size: 28rpx;
 }
 
 .bar .left {
@@ -139,7 +139,7 @@
     align-items: center;
 }
 
-.comments .line {
+.wrap > .line {
     background-color: rgb(240, 241, 243);
     height: 2rpx;
     width: 750rpx;
@@ -149,12 +149,11 @@
 .comments .comment {
     display: flex;
     width: 700rpx;
-    height: 300rpx;
     align-items: flex-start;
     margin: 20rpx 0rpx 20rpx 0;
 }
 
-.comments .comment .left {
+.comments .comment > .left {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -167,25 +166,29 @@
     border-radius: 50%;
 }
 
-.comments .comment .right {
+.comments .comment > .right {
     flex: 5;
     word-break: break-all;
     display: flex;
     flex-direction: column;
-
-    overflow: hidden;
-    background-color: hotpink;
 }
 
 .right .reviewer {
-    background-color: blue;
+    font-weight: bold;
+    font-size: 32rpx;
 }
 
-.right .content {
-    background-color: green;
+.right > .content {
+    font-size: 28rpx;
+    line-height: 48rpx;
+    color: rgb(102, 102, 102);
 }
 
-.right .info {
+.info {
     display: flex;
-    background-color: grey;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24rpx;
+    color: rgb(169, 172, 179);
+    margin-top: 20rpx;
 }
