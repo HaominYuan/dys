@@ -52,9 +52,14 @@
 					</view>
 					<view class='info'>
 						<view class='left'>
-							5楼17分钟前
+							<view class='floor'>沙发</view>
+							<view class='time'>19分钟前</view>
 						</view>
-						<view class='right'>分享 评论 点赞</view>
+						<view class='right'>
+							<view class='like'></view>
+							<view class='reply'></view>
+							<view class='share'></view>
+						</view>
 					</view>
 				</view>
 			</view>
@@ -73,14 +78,20 @@
 					</view>
 					<view class='info'>
 						<view class='left'>
-							5楼17分钟前
+							<view class='floor'>沙发</view>
+							<view class='time'>19分钟前</view>
 						</view>
-						<view class='right'>分享 评论 点赞</view>
+						<view class='right'>
+							<view class='like'></view>
+							<view class='reply'></view>
+							<view class='share'></view>
+						</view>
 					</view>
 				</view>
 			</view>
 			<view class='line'></view>
 		</view>
+
 	</view>
 
 </view>

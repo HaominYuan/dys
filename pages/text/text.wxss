@@ -192,3 +192,30 @@
     color: rgb(169, 172, 179);
     margin-top: 20rpx;
 }
+
+.info > .left {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 200rpx;
+}
+
+.info > .right {
+    display: flex;
+    flex: 0 0 200rpx;
+    justify-content: space-around;
+    font-family: 'iconFont';
+    font-size: 32rpx;
+    color: rgb(100, 107, 115);
+}
+
+.info > .right .share::before{
+    content: '\e70f';
+}
+
+.info > .right .reply::before {
+    content: '\e639';
+}
+
+.info > .right .like::before {
+    content: '\e6e0';
+}
