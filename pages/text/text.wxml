@@ -91,7 +91,16 @@
 			</view>
 			<view class='line'></view>
 		</view>
-
 	</view>
+</view>
 
+<view class='footer'>
+	<view class='top'>
+		<view class='left'>回复</view>
+		<view class='right'>楼主：</view>
+	</view>
+	<view class='bottom'>
+		<input class='content' placeholder='回复楼主'  placeholder-style='color: rgb(209, 210, 215);'/>
+		<button class='send'>发送</button>
+	</view>
 </view>
