@@ -121,6 +121,9 @@
 
 .bar .left {
     font-weight: bold;
+    border-left: 10rpx solid rgb(0, 161, 214);
+    padding-left: 10rpx;
+    line-height: 28rpx;
 }
 
 .bar .right {
@@ -246,7 +249,7 @@
 }
 
 .footer > .top > .right {
-    color: #00a1d6;
+    color: rgb(0, 161, 214);
 }
 
 .footer > .bottom {
@@ -265,7 +268,7 @@
 }
 
 .footer > .bottom > .send {
-    background-color: #00a1d6;
+    background-color: rgb(0, 161, 214);
     color: white;
     height: 64rpx;
     margin: 0rpx 20rpx 0rpx 20rpx;

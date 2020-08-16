@@ -7,20 +7,6 @@ Page({
   data: {
   },
 
-  textTap: function () {
-    console.log(this.data.text)
-    let data = {
-      user: 'yhm',
-      age: '18',
-      sexy: '男'
-    }
-
-    data = JSON.stringify(data)
-    wx.navigateTo({
-      url: `../text/text?data=${data}`
-    })
-  },
-
   onLoad: function (options) {
     const that = this
     wx.request({
@@ -39,5 +25,27 @@ Page({
         console.log(error)
       }
     })
+  },
+
+  textTap: function () {
+    console.log(this.data.text)
+    let data = {
+      user: 'yhm',
+      age: '18',
+      sexy: '男'
+    }
+
+    data = JSON.stringify(data)
+    wx.navigateTo({
+      url: `../text/text?data=${data}`
+    })
+  },
+
+  post: function () {
+    console.log('Post')
+    wx.navigateTo({
+      url: `../post/post`,
+    })
   }
+  
 })

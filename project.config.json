@@ -76,6 +76,13 @@
 					"id": -1,
 					"name": "pages/text/text",
 					"pathName": "pages/text/text",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/post/post",
+					"pathName": "pages/post/post",
 					"scene": null
 				}
 			]

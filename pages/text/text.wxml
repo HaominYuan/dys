@@ -34,7 +34,9 @@
 	<view class='comments'>
 		<view class='wrap'>
 			<view class='bar'>
-				<view class='left'>全部回复</view>
+				<view class='left'>
+					 全部回复
+				</view>
 				<view class='right'>正序</view>
 			</view>
 			<view class='line'></view>
