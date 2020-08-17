@@ -1,2 +1,15 @@
-<!--pages/post/post.wxml-->
-<text>pages/post/post.wxml</text>
+<view class='list'>
+	<view class='top'>
+		<textarea class='content' placeholder='Say what you want to say~'></textarea>
+        <view class='photo'>添加图片</view>
+        <view class='bottom'>
+            <view class='position'>点击添加位置（长按删除）</view>
+            <view class='anonymous'>匿名/实名</view>
+        </view>
+	</view>
+	<view class='bottom'>
+		<button class='send'>
+			发送
+		</button>
+	</view>
+</view>
