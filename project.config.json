@@ -83,6 +83,14 @@
 					"id": -1,
 					"name": "pages/post/post",
 					"pathName": "pages/post/post",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/tmp/tmp",
+					"pathName": "pages/tmp/tmp",
+					"query": "",
 					"scene": null
 				}
 			]

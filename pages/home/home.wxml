@@ -20,4 +20,6 @@
 	</view>
 </view>
 
-<button class='post' bindtap='post'>+</button>
+<button class='post' bindtap='post'>
+	<view class='cross'></view>
+</button>

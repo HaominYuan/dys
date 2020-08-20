@@ -2,7 +2,8 @@
     "pages": [
         "pages/home/home",
         "pages/text/text",
-        "pages/post/post"
+        "pages/post/post",
+        "pages/tmp/tmp"
     ],
     "window": {
         "backgroundTextStyle": "light",
