@@ -15,7 +15,7 @@
 		</view>
 	</view>
 	<view class='bottom'>
-		<button class='send'>
+		<button class='send' bindtap='post'>
 			发送
 		</button>
 	</view>

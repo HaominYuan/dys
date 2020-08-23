@@ -1,9 +1,4 @@
-// pages/me/me.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
   },
 
@@ -42,7 +37,6 @@ Page({
   },
 
   post: function () {
-    console.log('Post')
     wx.navigateTo({
       url: `../post/post`,
     })

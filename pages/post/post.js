@@ -1,16 +1,8 @@
-// pages/post/post.js
 Page({
-
-    /**
-     * 页面的初始数据
-     */
     data: {
-
+        filesUrl: []
     },
 
-    /**
-     * 生命周期函数--监听页面加载
-     */
     onLoad() {
         this.setData({
             selectFile: this.selectFile.bind(this),
@@ -30,24 +22,21 @@ Page({
             }
         })
     },
-    previewImage: function(e){
+    previewImage: function(e) {
         wx.previewImage({
             current: e.currentTarget.id, // 当前显示图片的http链接
             urls: this.data.files // 需要预览的图片http链接列表
         })
     },
     selectFile(files) {
-        console.log('files', files)
-        // 返回false可以阻止某次文件上传
     },
     uplaodFile(files) {
-        console.log('upload files', files)
         // 文件上传的函数，返回一个promise
-        const that = this
         return new Promise((resolve, reject) => {
             const tempFilePaths = files.tempFilePaths;
-            that.setData({
-                filesUrl: tempFilePaths
+            let filesUrl = this.data.filesUrl.concat(tempFilePaths)
+            this.setData({
+                filesUrl: filesUrl
             })
             let object = {}
             object['urls'] = tempFilePaths
@@ -60,53 +49,7 @@ Page({
     uploadSuccess(e) {
         console.log('upload success', e.detail)
     },
-
-    /**
-     * 生命周期函数--监听页面初次渲染完成
-     */
-    onReady: function () {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面显示
-     */
-    onShow: function () {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面隐藏
-     */
-    onHide: function () {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面卸载
-     */
-    onUnload: function () {
-
-    },
-
-    /**
-     * 页面相关事件处理函数--监听用户下拉动作
-     */
-    onPullDownRefresh: function () {
-
-    },
-
-    /**
-     * 页面上拉触底事件的处理函数
-     */
-    onReachBottom: function () {
-
-    },
-
-    /**
-     * 用户点击右上角分享
-     */
-    onShareAppMessage: function () {
-
+    post: function(e) {
+        console.log(this.data)
     }
 })
