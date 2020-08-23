@@ -26,6 +26,8 @@ page {
 .list>.top>.photo {
     background-color: yellowgreen;
     width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .list>.top>.bottom {
@@ -60,4 +62,23 @@ page {
 
 .list>.bottom>.send::after {
     border: 0rpx;
+}
+
+image {
+    width: 150rpx;
+    height: 150rpx;
+    margin: 10rpx;
+}
+
+.add {
+    height: 150rpx;
+    margin: 10rpx !important;
+    padding: 0 !important;
+    background-color: red;
+    position: relative;
+    flex: 0 0 150rpx !important;
+}
+
+.add::after {
+    border: none;
 }

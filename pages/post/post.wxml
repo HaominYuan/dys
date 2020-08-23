@@ -1,12 +1,9 @@
 <view class='list'>
 	<view class='top'>
 		<textarea class='content' placeholder='Say what you want to say~'></textarea>
-		<view class='photo'>
-			<mp-cells>
-				<mp-cell>
-					<mp-uploader bindfail="uploadError" bindsuccess="uploadSuccess" select="{{selectFile}}" upload="{{uplaodFile}}" files="{{files}}" max-count="5"></mp-uploader>
-				</mp-cell>
-			</mp-cells>
+		<view class='photo' >
+			<image wx:for="{{images}}" src="{{item}}"></image>
+			<button class='add' bindtap='add' style="display:{{display}}"></button>
 		</view>
 		<view class='bottom'>
 			<view class='position'>点击添加位置（长按删除）</view>
