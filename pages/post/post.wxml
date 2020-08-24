@@ -3,9 +3,11 @@
 		<textarea class='content' placeholder='Say what you want to say~'></textarea>
 		<view class='photo' >
 			<image wx:for="{{images}}" src="{{item}}"></image>
-			<button class='add' bindtap='add' style="display:{{display}}"></button>
+			<button class='add' bindtap='add' style="display:{{display}}">
+				<view class='cross'></view>
+			</button>
 		</view>
-		<view class='bottom'>
+		<view class='bottom' style='display: none;'>
 			<view class='position'>点击添加位置（长按删除）</view>
 			<switch class='anonymous'>
 			</switch>
