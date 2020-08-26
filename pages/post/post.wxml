@@ -1,8 +1,8 @@
 <view class='list'>
 	<view class='top'>
-		<textarea class='content' placeholder='Say what you want to say~'></textarea>
-		<view class='photo' >
-			<image wx:for="{{images}}" src="{{item}}"></image>
+		<textarea class='content' placeholder='Say what you want to say~' value='{{content}}' bindinput='textinput'></textarea>
+		<view class='photo'>
+			<image wx:for="{{images}}" wx:key="*this" src="{{item}}"></image>
 			<button class='add' bindtap='add' style="display:{{display}}">
 				<view class='cross'></view>
 			</button>
@@ -17,5 +17,6 @@
 		<button class='send' bindtap='post'>
 			发送
 		</button>
+
 	</view>
 </view>
